@@ -1,0 +1,27 @@
+.btn_donate {
+  @apply bg-primary rounded-md px-8 py-3 text-white;
+}
+.btn_secondary {
+  @apply bg-secondary text-white font-bold uppercase px-8 py-3 rounded-md;
+}
+
+.callingBtn_top {
+  @apply absolute bg-[#FABF62]  w-[110px] h-[110px] top-6 left-5 rounded-t-xl rounded-bl-xl text-center;
+}
+.callingBtn_bottom {
+  @apply absolute  bg-white w-[110px] h-[110px] bottom-10 right-5 rounded-t-xl rounded-br-xl shadow-2xl text-center;
+}
+
+.callingBtn_top_md {
+  @apply md:w-[277px]  md:h-[143px] md:p-10 md:top-40 md:left-32 md:text-right;
+}
+
+.callingBtn_bottom_md {
+  @apply md:w-[277px]  md:h-[143px] md:p-10 md:bottom-40 md:right-32 md:text-left;
+}
+footer h1 {
+  @apply font-bold pb-6;
+}
+footer p {
+  @apply text-sm;
+}
